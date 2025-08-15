@@ -1,4 +1,6 @@
+// FinalizeOrderDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class FinalizeOrderDTO {
-}
+import java.time.LocalDate;
+
+public record FinalizeOrderDTO(String trackingCode, LocalDate expectedDate) {}

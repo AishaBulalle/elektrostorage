@@ -1,4 +1,6 @@
+// CreateOrderDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class CreateOrderDTO {
-}
+import jakarta.validation.constraints.NotNull;
+
+public record CreateOrderDTO(@NotNull Long supplierId) {}

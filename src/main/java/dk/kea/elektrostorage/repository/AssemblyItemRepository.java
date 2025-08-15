@@ -1,4 +1,6 @@
 package dk.kea.elektrostorage.repository;
 
-public class AssemblyItemRepository {
-}
+import dk.kea.elektrostorage.entity.AssemblyItem;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AssemblyItemRepository extends JpaRepository<AssemblyItem, Long> { }

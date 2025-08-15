@@ -1,4 +1,7 @@
 package dk.kea.elektrostorage.repository;
 
-public class ComponentRepository {
+import dk.kea.elektrostorage.entity.Component;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ComponentRepository extends JpaRepository<Component, Long> {
 }

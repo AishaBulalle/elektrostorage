@@ -1,4 +1,4 @@
+// OrderLineDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class OrderLineDTO {
-}
+public record OrderLineDTO(Long id, Long componentId, int quantity) {}

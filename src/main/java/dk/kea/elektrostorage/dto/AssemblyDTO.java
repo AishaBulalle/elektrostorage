@@ -1,4 +1,6 @@
+// AssemblyDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class AssemblyDTO {
-}
+import java.util.List;
+
+public record AssemblyDTO(Long id, String name, Long resultingComponentId, List<AssemblyItemDTO> items) {}

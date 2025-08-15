@@ -1,4 +1,4 @@
+// AssemblyItemDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class AssemblyItemDTO {
-}
+public record AssemblyItemDTO(Long componentId, int quantity) {}

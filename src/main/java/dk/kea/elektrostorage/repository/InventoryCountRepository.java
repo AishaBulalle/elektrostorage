@@ -1,4 +1,6 @@
 package dk.kea.elektrostorage.repository;
 
-public class InventoryCountRepository {
-}
+import dk.kea.elektrostorage.entity.InventoryCount;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface InventoryCountRepository extends JpaRepository<InventoryCount, Long> { }

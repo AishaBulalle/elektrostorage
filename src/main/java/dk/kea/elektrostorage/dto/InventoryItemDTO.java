@@ -1,4 +1,4 @@
+// InventoryItemDTO.java
 package dk.kea.elektrostorage.dto;
 
-public class InventoryItemDTO {
-}
+public record InventoryItemDTO(Long componentId, String externalSku, int totalReceived) {}
